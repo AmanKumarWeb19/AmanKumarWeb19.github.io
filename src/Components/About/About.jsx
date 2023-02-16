@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { SkillsIcon } from "../Skills/Skill.jsx";
+import { gotoLink } from "../goToLink";
 
 export const About = () => {
   return (
@@ -38,7 +39,20 @@ export const About = () => {
           <SkillsIcon />
         </div>
       </div>
-      <div></div>
+      <div>
+        <div className="cv_button">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1SwBXVE-sjgj6A0ES6fEigpjUdQG4bdVx"
+            onClick={() => {
+              gotoLink(
+                "https://drive.google.com/file/d/1SwBXVE-sjgj6A0ES6fEigpjUdQG4bdVx/view?usp=share_link"
+              );
+            }}
+          >
+            DOWNLOAD RESUME
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

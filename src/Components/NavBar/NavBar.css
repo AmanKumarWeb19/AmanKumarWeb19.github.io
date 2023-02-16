@@ -4,7 +4,7 @@
   width: 100vw;
   height: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   z-index: 100;
@@ -21,7 +21,10 @@
 .Navbar_container > div {
   cursor: pointer;
 }
-
+.Navbar_container > div > a {
+  text-decoration: none;
+  color: #f0f5f9;
+}
 .active {
   color: #f04308;
 }

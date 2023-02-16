@@ -1,157 +1,166 @@
 .main_container {
-    width: 100vw;
-    justify-content: center;
-    padding: 5% 0%;
-    background-color: #f0f5f9;
-    font-family: "Noto Sans Mono", monospace;
-  }
-  .about_skills,
-  .main_container,
-  button,
-  .cv_button {
-    display: flex;
-  }
-  .about_skills,
+  width: 100vw;
+  justify-content: center;
+  padding: 5% 0%;
+  background-color: #f0f5f9;
+  font-family: "Noto Sans Mono", monospace;
+}
+.about_skills,
+.main_container,
+button,
+.cv_button {
+  display: flex;
+}
+.about_skills,
+.main_container {
+  flex-direction: column;
+}
+.about_skills {
+  width: 70vw;
+  justify-content: space-between;
+}
+
+button {
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 160px;
+  background-color: #1e2022;
+  color: #f0f5f9;
+  cursor: pointer;
+  font-family: "Noto Sans Mono", monospace;
+}
+button:hover {
+  color: #f04308;
+  transform: scale(1.05);
+}
+
+button > img {
+  width: 10%;
+}
+
+.about_me_container,
+.skills_icon {
+  display: grid;
+}
+
+.skills_icon div > img {
+  width: 30%;
+}
+
+@media (max-width: 900px) {
   .main_container {
-    flex-direction: column;
+    padding-bottom: 20%;
   }
-  .about_skills {
-    width: 70vw;
-    justify-content: space-between;
+  .about_me_container {
+    grid-template-rows: auto auto;
+    text-align: center;
   }
-  
-  button {
+  .about_me + h4 {
+    padding: 0% 3%;
+  }
+  .skills_icon {
+    grid-template-columns: repeat(2, 40%);
+    text-align: center !important;
+    margin-left: 0% !important;
     justify-content: space-evenly;
     align-items: center;
-    height: 40px;
-    width: 160px;
-    background-color: #1e2022;
-    color: #f0f5f9;
-    cursor: pointer;
-    font-family: "Noto Sans Mono", monospace;
   }
-  button:hover {
-    color: #f04308;
-    transform: scale(1.05);
+  .my_skills {
+    text-align: center;
   }
-  
-  button > img {
-    width: 10%;
-  }
-  
-  .about_me_container,
-  .skills_icon {
-    display: grid;
-  }
-  
   .skills_icon div > img {
     width: 30%;
   }
-  
-  @media (max-width: 900px) {
-    .main_container {
-      padding-bottom: 20%;
-    }
-    .about_me_container {
-      grid-template-rows: auto auto;
-      text-align: center;
-    }
-    .about_me + h4 {
-      padding: 0% 3%;
-    }
-    .skills_icon {
-      grid-template-columns: repeat(2, 40%);
-      text-align: center !important;
-      margin-left: 0% !important;
-      justify-content: space-evenly;
-      align-items: center;
-    }
-    .my_skills {
-      text-align: center;
-    }
-    .skills_icon div > img {
-      width: 30%;
-    }
-    .cv_button {
-      width: 50vw;
-      justify-content: center;
-    }
+  .cv_button {
+    width: 50vw;
+    justify-content: center;
   }
-  @media (min-width: 900px) {
-    .about_me_container {
-      justify-content: center;
-      grid-template-columns: 20% 70%;
-    }
-    .skills_icon {
-      grid-template-columns: repeat(4, 20%);
-      margin-left: 25%;
-      /* border: 1px solid black; */
-      grid-column-gap: 2%;
-      grid-row-gap: 5%;
-      padding: 3% 0%;
-    }
-    .skills_icon div > img {
-      width: 30%;
-    }
-    .my_skills {
-      margin-left: 25%;
-    }
-    .cv_button {
-      width: 40vw;
-    }
+}
+@media (min-width: 900px) {
+  .about_me_container {
+    justify-content: center;
+    grid-template-columns: 20% 70%;
   }
-  
-  .about_me_image div > img {
-    width: 50%;
-    /* border: 1px solid black; */
-    border-radius:15%;
-  }
-  .about_me_image > div {
-    padding: 10% 0%;
-  }
-  
-  .about_skills {
-    margin-top: 5%;
-    color: #f0f5f9;
-  }
-  
-  .cv_button,
-  .about_skills,
   .skills_icon {
+    grid-template-columns: repeat(4, 20%);
+    margin-left: 25%;
+    /* border: 1px solid black; */
+    grid-column-gap: 2%;
+    grid-row-gap: 5%;
+    padding: 3% 0%;
+  }
+  .skills_icon div > img {
+    width: 30%;
+  }
+  .my_skills {
     margin-left: 25%;
   }
   .cv_button {
-    margin-top: 4%;
+    width: 40vw;
   }
-  
-  .html,
-  .css {
-    width: 75%;
-  }
-  .javaScript,
-  .react {
-    width: 70%;
-  }
-  .node {
-    width: 68%;
-  }
-  .express,
-  .mongo {
-    width: 60%;
-  }
-  
-  .html,
-  .css,
-  .javaScript,
-  .react,
-  .node,
-  .express,
-  .mongo {
-    background-color: #52616b;
-  }
-  .about_me,
-  .my_skills {
-    font-size: 2em;
-    padding-bottom: 3%;
-  }
-  
+}
+
+.about_me_image div > img {
+  width: 50%;
+  /* border: 1px solid black; */
+  border-radius: 15%;
+}
+.about_me_image > div {
+  padding: 10% 0%;
+}
+
+.about_skills {
+  margin-top: 5%;
+  color: #f0f5f9;
+}
+
+.cv_button,
+.about_skills,
+.skills_icon {
+  margin-left: 25%;
+}
+.cv_button {
+  margin-top: 4%;
+}
+.cv_button > a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid black;
+  color: #f0f5f9;
+  background-color: #1e2022;
+  border-radius: 4px;
+}
+.cv_button > a:hover {
+  color: #f04308;
+}
+.html,
+.css {
+  width: 75%;
+}
+.javaScript,
+.react {
+  width: 70%;
+}
+.node {
+  width: 68%;
+}
+.express,
+.mongo {
+  width: 60%;
+}
+
+.html,
+.css,
+.javaScript,
+.react,
+.node,
+.express,
+.mongo {
+  background-color: #52616b;
+}
+.about_me,
+.my_skills {
+  font-size: 2em;
+  padding-bottom: 3%;
+}

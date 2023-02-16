@@ -1,0 +1,72 @@
+.conatiner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.conatiner > .particle {
+  width: 100%;
+  height: 100%;
+}
+.data {
+  padding: 5%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #f0f5f9;
+  font-family: "Noto Sans Mono", monospace;
+}
+@media (min-width: 900px) {
+  .data {
+    height: 80vh;
+  }
+  .home_title {
+    font-size: 4rem;
+  }
+  .home_text {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 900px) {
+  .data {
+    height: 100vh;
+  }
+  .home_title {
+    font-size: 2em;
+  }
+  .home_text {
+    font-size: 1em;
+  }
+}
+.data,
+.links_container,
+.links_image {
+  display: flex;
+}
+.links_container,
+.links_image {
+  justify-content: space-evenly;
+}
+.links_container {
+  margin-top: 4%;
+}
+.links_image {
+  width: 30%;
+}
+.links_image > img {
+  padding: 0% 5%;
+  cursor: pointer;
+}
+.links_image > img:hover {
+  transform: scale(1.8) rotate(360deg);
+  transition: all 0.5s;
+}
