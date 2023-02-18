@@ -100,14 +100,17 @@ button > img {
     width: 40vw;
   }
 }
-
+.about_me_image {
+  /* border: 1px solid red; */
+}
 .about_me_image div > img {
-  width: 50%;
-  /* border: 1px solid black; */
+  width: 90%;
+  border: 2px solid rgb(186, 183, 183);  
   border-radius: 15%;
 }
 .about_me_image > div {
   padding: 10% 0%;
+  /* border: 1px solid red; */
 }
 
 .about_skills {

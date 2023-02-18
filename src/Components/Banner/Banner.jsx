@@ -2,6 +2,7 @@ import React from "react";
 import "./banner.css";
 import { gotoLink } from "../goToLink.js";
 import { Particle } from "../Particle";
+import Typewriter from "typewriter-effect";
 
 export const Banner = () => {
   return (
@@ -11,7 +12,18 @@ export const Banner = () => {
       </div>
       <div className="data" id="home">
         <div>
-          <h1 className="home_title">I am Aman Kumar</h1>
+          <h1 className="home_title">Hi,I'm Aman Kumar</h1>
+        </div>
+        <div className="typeWriteCont">
+          <h1>
+            <Typewriter
+              options={{
+                strings: ["A Web Developer", "A Problem Solver"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h1>
         </div>
         <div>
           <h3 className="home_text">

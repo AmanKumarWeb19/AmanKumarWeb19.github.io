@@ -24,6 +24,12 @@
   color: #f0f5f9;
   font-family: "Noto Sans Mono", monospace;
 }
+.data > div > .home_title {
+  margin-bottom: 0px;
+}
+.data > .typeWriteCont > h1 {
+  color: red;
+}
 @media (min-width: 900px) {
   .data {
     height: 80vh;
