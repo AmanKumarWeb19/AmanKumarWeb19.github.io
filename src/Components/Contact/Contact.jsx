@@ -4,7 +4,7 @@ import { gotoLink } from "../goToLink";
 
 export const Contact = () => {
   return (
-    <div className="contact_outer_container" id="contact_me">
+    <div className="contact_outer_container" id="contact">
       <div className="contact_container">
         <div className="reach_out">
           <div className="say_hello">
@@ -14,11 +14,11 @@ export const Contact = () => {
           <div className="temp_header">
             <img src="./email.svg" alt="" />
           </div>
-          <div>akgupta0524@gmail.com</div>
+          <div id="contact-email">akgupta0524@gmail.com</div>
           <div className="temp_header">
             <img src="./phone.svg" alt="" />
           </div>
-          <div>+91 6202378933</div>
+          <div id="contact-phone">+91 6202378933</div>
         </div>
         <div className="contact_input">
           <input
@@ -44,7 +44,7 @@ export const Contact = () => {
         </div>
       </div>
       <div className="footer_links">
-        <div>
+        <div id="contact-github">
           <img
             src="./github_light.svg"
             alt=""
@@ -54,7 +54,7 @@ export const Contact = () => {
           />
           <div>github/Aman-Kumar</div>
         </div>
-        <div>
+        <div id="contact-linkedin">
           <img
             src="./linkedin.svg"
             alt=""

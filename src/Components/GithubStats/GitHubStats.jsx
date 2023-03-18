@@ -8,7 +8,7 @@ const GitHubStats = () => {
         className="gitStats_Wrap"
         style={{ display: "flex", justifyContent: "space-evenly" }}
       >
-        <div className="gitStats_one">
+        <div id="github-top-langs" className="gitStats_one">
           <a href="https://github.com/AmanKumarWeb19">
             <img
               align="center"
@@ -18,7 +18,7 @@ const GitHubStats = () => {
           </a>
         </div>
 
-        <div className="gitStats_two">
+        <div id="github-streak-stats" className="gitStats_two">
           <a href="https://github.com/AmanKumarWeb19">
             <img
               align="center"
@@ -27,7 +27,7 @@ const GitHubStats = () => {
             />
           </a>
         </div>
-        <div className="gitStats_three">
+        <div id="github-stats-card" className="gitStats_three">
           <a href="https://github.com/AmanKumarWeb19">
             <img
               align="center"

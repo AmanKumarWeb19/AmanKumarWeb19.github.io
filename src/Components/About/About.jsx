@@ -1,14 +1,14 @@
 import React from "react";
 import "./About.css";
-import { SkillsIcon } from "../Skills/Skill.jsx";
+// import { SkillsIcon } from "../Skills/Skill.jsx";
 import { gotoLink } from "../goToLink";
 
 export const About = () => {
   return (
-    <div id="about" className="main_container">
+    <div id="about" className="about section">
       <div className="about_me_container">
         <div className="about_me_image">
-          <div>
+          <div className="home-img">
             <img src="/aman.jpg" alt="" />
           </div>
         </div>
@@ -33,15 +33,16 @@ export const About = () => {
           </h4>
         </div>
       </div>
-      <div>
+      {/* <div>
         <h2 className="my_skills">My Skills</h2>
         <div className="skills_icon">
           <SkillsIcon />
         </div>
-      </div>
+      </div> */}
       <div>
         <div className="cv_button">
           <a
+            id="resume-link-2"
             href="https://drive.google.com/uc?export=download&id=1SwBXVE-sjgj6A0ES6fEigpjUdQG4bdVx"
             onClick={() => {
               gotoLink(

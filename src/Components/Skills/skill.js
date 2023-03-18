@@ -1,10 +1,11 @@
 export const data = [
-    { img: "./html.svg", title: "HTML" },
-    { img: "./css.svg", title: "CSS" },
-    { img: "./javascript.svg", title: "JS" },
-    { img: "./react.svg", title: "React" },
-    { img: "./nodejs.svg", title: "Node.js" },
-    { img: "./expressjs.svg", title: "Express" },
-    { img: "./mongodb.svg", title: "MongoDB" },
-  ];
-  
+  { img: "./html.svg", title: "HTML" },
+  { img: "./css.svg", title: "CSS" },
+  { img: "./javascript.svg", title: "JS" },
+  { img: "./react.svg", title: "React" },
+  { img: "./redux.svg", title: "Redux" },
+  { img: "./nodejs.svg", title: "Node.js" },
+  { img: "./expressjs.svg", title: "Express" },
+  { img: "./mongodb.svg", title: "MongoDB" },
+  { img: "./Postman-svgrepo-com.svg", title: "Postman" },
+];

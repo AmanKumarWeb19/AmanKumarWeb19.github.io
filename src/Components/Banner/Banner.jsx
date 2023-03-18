@@ -6,13 +6,15 @@ import Typewriter from "typewriter-effect";
 
 export const Banner = () => {
   return (
-    <div className="conatiner">
+    <div id="home" className="conatiner">
       <div className="particle">
         <Particle />
       </div>
-      <div className="data" id="home">
+      <div className="data" id="homes">
         <div>
-          <h1 className="home_title">Hi,I'm Aman Kumar</h1>
+          <h1 id="user-detail-name" className="home_title">
+            Hi,I'm Aman Kumar
+          </h1>
         </div>
         <div className="typeWriteCont">
           <h1>
@@ -26,7 +28,7 @@ export const Banner = () => {
           </h1>
         </div>
         <div>
-          <h3 className="home_text">
+          <h3 id="user-detail-intro" className="home_text">
             Passionate and diligent web developer with specialization in MERN
             stack. Enthusiastic about building interactive and user-friendly
             websites.Looking forward to an exciting opportunity to work in a

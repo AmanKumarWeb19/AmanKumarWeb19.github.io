@@ -2,3 +2,49 @@
   overflow-x: hidden;
   scrollbar-width: thin;
 }
+.skills_icon {
+  display: grid;
+}
+.skills_icon div > img {
+  width: 30%;
+}
+@media (max-width: 900px) {
+  .skills_icon {
+    grid-template-columns: repeat(2, 40%);
+    text-align: center !important;
+    margin-left: 0% !important;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .my_skills {
+    text-align: center;
+  }
+  .skills_icon div > img {
+    width: 30%;
+  }
+}
+@media (min-width: 900px) {
+  .skills_icon {
+    grid-template-columns: repeat(4, 20%);
+    margin-left: 25%;
+    /* border: 1px solid black; */
+    grid-column-gap: 2%;
+    grid-row-gap: 5%;
+    padding: 3% 0%;
+  }
+  .skills_icon div > img {
+    width: 30%;
+  }
+  .my_skills {
+    margin-left: 25%;
+  }
+}
+
+.skills_icon {
+  margin-left: 25%;
+}
+
+.my_skills {
+  font-size: 2em;
+  padding-bottom: 3%;
+}

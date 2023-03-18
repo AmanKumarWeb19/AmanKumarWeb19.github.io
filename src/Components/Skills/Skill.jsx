@@ -5,9 +5,9 @@ import { data } from "./skill.js";
 export const SkillsIcon = () => {
   return data.map(({ img, title }, index) => {
     return (
-      <div className="skills_container" key={index}>
-        <img src={img} alt="" />
-        <h5>{title}</h5>
+      <div id="skills" className="skills_container skills-card" key={index}>
+        <img className="skills-card-img" src={img} alt="" />
+        <h5 className="skills-card-name">{title}</h5>
       </div>
     );
   });
