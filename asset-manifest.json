@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.07524ebc.css",
-    "main.js": "/static/js/main.5f898eff.js",
+    "main.js": "/static/js/main.84f5dd4d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/Aman_Kumar_resume.pdf": "/static/media/Aman_Kumar_resume.bab4a8c0f5eb0efe07ea.pdf",
     "index.html": "/index.html",
     "main.07524ebc.css.map": "/static/css/main.07524ebc.css.map",
-    "main.5f898eff.js.map": "/static/js/main.5f898eff.js.map",
+    "main.84f5dd4d.js.map": "/static/js/main.84f5dd4d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07524ebc.css",
-    "static/js/main.5f898eff.js"
+    "static/js/main.84f5dd4d.js"
   ]
 }
