@@ -37,7 +37,7 @@
   .home_title {
     font-size: 4rem;
   }
-  .home_text {
+  #user-detail-intro {
     font-size: 1.7em;
   }
 }
@@ -49,7 +49,7 @@
   .home_title {
     font-size: 2em;
   }
-  .home_text {
+  #user-detail-intro {
     font-size: 1em;
   }
 }
@@ -57,6 +57,7 @@
 .links_container,
 .links_image {
   display: flex;
+  /* justify-content: space-between; */
 }
 .links_container,
 .links_image {
@@ -66,10 +67,10 @@
   margin-top: 4%;
 }
 .links_image {
-  width: 30%;
+  width: 50%;
 }
 .links_image > img {
-  padding: 0% 5%;
+  padding: 0% 100%;
   cursor: pointer;
 }
 .links_image > img:hover {

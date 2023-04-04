@@ -13,12 +13,7 @@ function App() {
       <NavBar />
       <Banner />
       <About />
-      <div style={{ marginBottom: "50px" }}>
-        <h2 className="my_skills">My Skills</h2>
-        <div className="skills_icon">
-          <SkillsIcon />
-        </div>
-      </div>
+      <SkillsIcon />
       <GitHubStats />
       <Project />
       <Contact />

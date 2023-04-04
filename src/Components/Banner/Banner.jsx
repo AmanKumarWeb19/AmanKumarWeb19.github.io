@@ -28,12 +28,15 @@ export const Banner = () => {
           </h1>
         </div>
         <div>
-          <h3 id="user-detail-intro" className="home_text">
+          <h3 id="user-detail-intro">
             Passionate and diligent web developer with specialization in MERN
             stack. Enthusiastic about building interactive and user-friendly
             websites.Looking forward to an exciting opportunity to work in a
             challenging role as a full-stack developer.
           </h3>
+        </div>
+
+        <div>
           <div className="links_container">
             <div className="links_image">
               <img

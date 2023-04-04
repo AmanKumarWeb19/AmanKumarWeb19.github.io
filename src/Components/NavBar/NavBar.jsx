@@ -34,14 +34,14 @@ export const NavBar = () => {
       <div className="nav-link resume">
         <a
           id="resume-link-1"
-          href="https://drive.google.com/uc?export=download&id=1SwBXVE-sjgj6A0ES6fEigpjUdQG4bdVx"
+          href="https://drive.google.com/uc?export=download&id=1mqtU-djLf_NFGkyg26WXdi83GYLFJtgc"
           onClick={() => {
             gotoLink(
-              "https://drive.google.com/file/d/1SwBXVE-sjgj6A0ES6fEigpjUdQG4bdVx/view?usp=share_link"
+              "https://drive.google.com/file/d/1mqtU-djLf_NFGkyg26WXdi83GYLFJtgc/view?usp=share_link"
             );
           }}
         >
-          Resume
+          <div id="resume-button-1">Resume</div>
         </a>
       </div>
     </div>
