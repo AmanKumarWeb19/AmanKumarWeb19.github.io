@@ -38,10 +38,10 @@ export const About = () => {
         <div className="cv_button">
           <a
             id="resume-link-2"
-            href="https://drive.google.com/uc?export=download&id=1mqtU-djLf_NFGkyg26WXdi83GYLFJtgc"
+            href="https://drive.google.com/uc?export=download&id=1NBEcWjgXvZe5Bi0qOtsAVC88nab9Rjjm"
             onClick={() => {
               gotoLink(
-                "https://drive.google.com/file/d/1mqtU-djLf_NFGkyg26WXdi83GYLFJtgc/view?usp=share_link"
+                "https://drive.google.com/file/d/1NBEcWjgXvZe5Bi0qOtsAVC88nab9Rjjm/view?usp=drive_link"
               );
             }}
           >
