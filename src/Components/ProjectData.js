@@ -11,7 +11,7 @@ export const data = [
     title: "Wardrobe",
     repo: "https://github.com/gaurav62472744/Myntra.com",
     website: "https://halting-title-3346.vercel.app/",
-    project_thumbnail: "/wardrobe.png",
+    project_thumbnail: "/bookstore.PNG",
     txt1: "This project was about creating a clone of Wardrobe website as the part of construct week project.Wardrobe is an e-commerce online website for the best fashion products of all categories for the consumer, This project was a result of the collaboration of four team members within five days.",
     tech: "Tech: React, Redux, Chakra-ui, Redux-thunk",
   },
