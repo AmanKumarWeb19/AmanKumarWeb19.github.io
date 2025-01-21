@@ -7,5 +7,5 @@ export const data = [
   { img: "./nodejs.svg", title: "Node.js" },
   { img: "./expressjs.svg", title: "Express" },
   { img: "./mongodb.svg", title: "MongoDB" },
-  { img: "./Postman-svgrepo-com.svg", title: "Postman" },
+  { img: "./postman.svg", title: "Postman" },
 ];
