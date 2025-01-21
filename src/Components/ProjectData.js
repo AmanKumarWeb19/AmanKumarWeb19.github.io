@@ -1,5 +1,13 @@
 export const data = [
   {
+    title: "New Bookstore App",
+    repo: "https://github.com/AmanKumarWeb19/New_BookStore_App.git",
+    website: "https://new-bookstore-app.onrender.com/",
+    project_thumbnail: "/wardrobe.png",
+    txt1: "The New Bookstore App is a feature-rich MERN (MongoDB, Express, React, Node.js) project designed to simplify book browsing, searching, and management. With a responsive UI and secure backend, this app provides a seamless user experience for book enthusiasts.",
+    tech: "Tech: Vite, Tailwind-Css, daisyui, react-hot-toast, react-slick-carousel, node.js, express.js,mongoose, mongodb, dotenv, nodemon.",
+  },
+  {
     title: "Wardrobe",
     repo: "https://github.com/gaurav62472744/Myntra.com",
     website: "https://halting-title-3346.vercel.app/",
